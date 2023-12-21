@@ -1,0 +1,11 @@
+public class testeCarro {
+    public static void main(String[] args) {
+        modeloCarro meuCarro = new modeloCarro();
+        meuCarro.definirModelo("uno");
+        meuCarro.definirPreco(10 ,75 ,6750);
+        meuCarro.exibeFicha();
+        meuCarro.setTipoDeCambio("manual");
+
+    }
+}
+
