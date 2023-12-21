@@ -1,0 +1,29 @@
+public class modeloCarro extends carro{
+    private int anoDeLancamento;
+    private int quantidadeDePortas;
+    private  String tipoDeCambio;
+
+    public int getAnoDeLancamento() {
+        return anoDeLancamento;
+    }
+
+    public void setAnoDeLancamento(int anoDeLancamento) {
+        this.anoDeLancamento = anoDeLancamento;
+    }
+
+    public int getQuantidadeDePortas() {
+        return quantidadeDePortas;
+    }
+
+    public void setQuantidadeDePortas(int quantidadeDePortas) {
+        this.quantidadeDePortas = quantidadeDePortas;
+    }
+
+    public String getTipoDeCambio() {
+        return tipoDeCambio;
+    }
+
+    public void setTipoDeCambio(String tipoDeCambio) {
+        this.tipoDeCambio = tipoDeCambio;
+    }
+}
